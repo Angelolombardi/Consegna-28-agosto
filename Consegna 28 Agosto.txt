@@ -1,0 +1,43 @@
+import math
+# Definisco le formule per il calcolo del perimetro di ogni figura
+
+def calcola_perimetro_quadrato():
+    lato = float(input("Inserisci la lunghezza del lato del quadrato: "))
+    perimetro = lato * 4
+    print(f"Il perimetro del quadrato è: {perimetro:.2f}")
+
+def calcola_circonferenza_cerchio():
+    raggio = float(input("Inserisci il raggio del cerchio: "))
+    circonferenza = 2 * 3.1478 * raggio
+    print(f"La circonferenza del cerchio è: {circonferenza:.2f}")
+
+def calcola_perimetro_rettangolo():
+    base = float(input("Inserisci la lunghezza della base del rettangolo: "))
+    altezza = float(input("Inserisci l'altezza del rettangolo: "))
+    perimetro = 2 * (base + altezza)
+    print(f"Il perimetro del rettangolo è: {perimetro:.2f}")
+    
+def calcola_perimetro_triangolo_equilatero():
+    lato = float(input("Inserisci la lunghezza del lato del triangolo equilatero: "))
+    perimetro = 3*(lato)
+    print(f"Il perimetro del triangolo equilatero è {perimetro:2f}")
+    
+def calcola_perimetro_triangolo_isoscele():
+    base = float(input("Inserisci lunghezza della base: "))
+    altezza = float(input("Inserisci lunghezza dell'altezza: "))
+    perimetro = (base*altezza)/2
+    print(f"Il perimetro del triangolo isoscele è: {perimetro:.2f}")   
+    
+# Assegno a ogni figura un numero
+
+Avendo un messaggio cifrato HSNFRGH possiamo usare il cifrario di Cesare avendo una variabile fissa di 3 posizioni andando indietro.
+Quindi sarà:
+H = E
+S = P
+N = I
+F = C
+R = O
+G = D
+H = E 
+
+Messaggio decifrato: EPICODE
